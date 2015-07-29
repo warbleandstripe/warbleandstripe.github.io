@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link href='http://fonts.googleapis.com/css?family=Raleway:200,600' rel='stylesheet' type='text/css'>
+
+  <title>Paparazzi &mdash; Hide your face from the camera!</title>
+
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      padding: 0;
+      margin: 0;
+    }
+
+    h1 {
+      font: 200 64px 'Raleway', 'Helvetica Neue', sans-serif;
+      margin: 24px 0;
+    }
+
+    h2 {
+      font: 200 24px 'Raleway', 'Helvetica Neue', sans-serif;
+      margin: 0;
+    }
+
+    p {
+      font: 200 18px 'Raleway', 'Helvetica Neue', sans-serif;
+      line-height: 24px;
+    }
+
+    strong {
+      font-weight: 600;
+    }
+
+    .bleed {
+      margin: 0;
+    }
+
+    .page {
+      width: 880px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    .white {
+      background-color: white;
+      color: black;
+    }
+
+    .phone {
+      float: right;
+      height: 400px;
+    }
+
+    .faq {
+      margin: 80px 0;
+    }
+
+    .faq .q, .faq .a {
+    }
+
+    .faq .a {
+      margin-bottom: 40px;
+    }
+
+    .faq .q:before, .faq .a:before {
+      font-weight: bold;
+      position: absolute;
+      margin-left: -30px;
+    }
+
+    .faq .q:before {
+      content: "Q.";
+    }
+
+    .faq .a:before {
+      content: "A.";
+    }
+
+    .coming-soon {
+      font: 700 18px 'Raleway', 'Helvetica Neue', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      background-color: #e83e20;
+      color: white;
+
+      position: fixed;
+      top: 60px;
+      right: -60px;
+      width: 300px;
+      text-align: center;
+      line-height: 48px;
+      transform: rotateZ(45deg);
+      -webkit-transform: rotateZ(45deg);
+      box-shadow: 0 0 2px #ccc;
+    }
+
+    @media(max-width: 700px) {
+      .page {
+        width: 300px;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+      }
+
+      .phone {
+        float: none;
+      }
+
+      .white {
+        padding: 40px 0;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="bleed white">
+    <div class="coming-soon">Coming soon!</div>
+
+    <div class="page">
+      <img class="phone" src="img/black.png">
+
+      <h1><strong>Hide</strong> your <strong>face</strong><br>
+        from the <strong>camera</strong></h1>
+
+      <h2>Download <strong>Paparazzi</strong>, free on the App Store</h2>
+    </div>
+  </div>
+
+  <div class="bleed">
+    <div class="page">
+      <div class="faq">
+        <h2>FAQ</h2>
+
+        <p class="q">What does this app do?</p>
+        <p class="a">Paparazzi uses face detection to blur out the faces in the
+        photographs that you take.</p>
+
+        <p class="q">How do I know what&rsquo;s going to get blurred out?</p>
+        <p class="a">The camera preview shows the blurring in real time, so you
+        can see exactly what will be blurred and what won&rsquo;t.</p>
+
+        <p class="q">Will it detect every face?</p>
+        <p class="a">Not really.  It should find most of the faces most of the
+        time, but it&rsquo;s not perfect.  You should always check the preview
+        to see what&rsquo;s being blurred.</p>
+
+        <p class="q">Are there different styles to the blurring?</p>
+        <p class="a">There are two; you can choose between a pixelated
+        effect and a black square.</p>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
